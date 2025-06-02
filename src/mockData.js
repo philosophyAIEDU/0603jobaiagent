@@ -1,0 +1,38 @@
+export const agents = [
+  {
+    id: '1',
+    name: '스마트 답변 AI',
+    category: '고객 지원',
+    shortDescription: '자주 묻는 질문에 24시간 자동 응답합니다.',
+    longDescription: '스마트 답변 AI는 고객의 반복적인 문의사항에 대해 실시간으로 정확하고 친절한 답변을 제공하여 고객 만족도를 높이고 상담원의 업무 부담을 줄여줍니다. FAQ 기반 학습 및 자연어 처리 기술을 통해 다양한 질문 유형에 대응 가능합니다.',
+    features: ['24/7 자동 응답', 'FAQ 기반 학습', '자연어 이해', '다국어 지원 (예정)'],
+    builderName: 'AI 솔루션즈',
+    pricingInfo: '월 5만원부터 시작 (플랜별 상이)',
+    contactInfo: 'contact@aisolutions.com',
+    imageUrl: 'https://via.placeholder.com/300x200?text=Smart+Answer+AI',
+  },
+  {
+    id: '2',
+    name: '콘텐츠 생성 도우미',
+    category: '마케팅',
+    shortDescription: '블로그 게시물, 광고 문구 초안을 작성해줍니다.',
+    longDescription: '콘텐츠 생성 도우미는 최신 트렌드와 키워드를 분석하여 매력적인 블로그 글, SNS 게시물, 광고 카피 등의 초안을 빠르게 작성해줍니다. 마케터의 창의적인 업무에 더 집중할 수 있도록 시간을 절약해주는 효율적인 AI입니다.',
+    features: ['블로그 글 초안 생성', '광고 문구 아이디어 제안', 'SNS 콘텐츠 맞춤 제작', 'SEO 키워드 분석'],
+    builderName: '크리에이티브 AI 팀',
+    pricingInfo: '건당 또는 월 구독형 (문의)',
+    contactInfo: 'hello@creative.ai',
+    imageUrl: 'https://via.placeholder.com/300x200?text=Content+Assistant',
+  },
+  {
+    id: '3',
+    name: '데이터 분석 전문가',
+    category: '데이터 분석',
+    shortDescription: '복잡한 데이터를 시각화하고 인사이트를 도출합니다.',
+    longDescription: '데이터 분석 전문가는 대량의 정형/비정형 데이터를 분석하여 비즈니스 의사결정에 필요한 핵심 인사이트를 발굴하고, 이해하기 쉬운 시각화 리포트를 제공합니다. 통계적 지식 없이도 데이터 기반의 전략 수립이 가능하도록 돕습니다.',
+    features: ['데이터 시각화', '통계 분석', '예측 모델링', '맞춤형 리포트 생성'],
+    builderName: '데이터 인사이트 Inc.',
+    pricingInfo: '프로젝트 기반 견적',
+    contactInfo: 'info@datainsights.co',
+    imageUrl: 'https://via.placeholder.com/300x200?text=Data+Analyst+AI',
+  }
+]; 
