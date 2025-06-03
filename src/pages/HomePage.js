@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './HomePage.css'; // HomePage에 특화된 스타일
 
 const HomePage = () => {
