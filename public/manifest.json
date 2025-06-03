@@ -1,25 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Your AI Agent",
+  "name": "Your AI Agent - AI Job Board",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23667eea'><path d='M12 2c3.3 0 6 2.7 6 6v8c0 3.3-2.7 6-6 6s-6-2.7-6-6V8c0-3.3 2.7-6 6-6zm0 2c-2.2 0-4 1.8-4 4v8c0 2.2 1.8 4 4 4s4-1.8 4-4V8c0-2.2-1.8-4-4-4zm-1 4h2v2h-2V8zm0 4h2v2h-2v-2z'/></svg>",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/svg+xml"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23667eea'><path d='M12 2c3.3 0 6 2.7 6 6v8c0 3.3-2.7 6-6 6s-6-2.7-6-6V8c0-3.3 2.7-6 6-6zm0 2c-2.2 0-4 1.8-4 4v8c0 2.2 1.8 4 4 4s4-1.8 4-4V8c0-2.2-1.8-4-4-4zm-1 4h2v2h-2V8zm0 4h2v2h-2v-2z'/></svg>",
+      "type": "image/svg+xml",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23667eea'><path d='M12 2c3.3 0 6 2.7 6 6v8c0 3.3-2.7 6-6 6s-6-2.7-6-6V8c0-3.3 2.7-6 6-6zm0 2c-2.2 0-4 1.8-4 4v8c0 2.2 1.8 4 4 4s4-1.8 4-4V8c0-2.2-1.8-4-4-4zm-1 4h2v2h-2V8zm0 4h2v2h-2v-2z'/></svg>",
+      "type": "image/svg+xml",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#667eea",
+  "background_color": "#f8fafc"
 }

@@ -7,6 +7,7 @@ const Header = () => {
     <header className="app-header">
       <div className="logo">
         <Link to="/">
+          <i className="fas fa-robot logo-icon"></i>
           <span className="logo-text">Your AI Agent</span>
           <span className="beta-badge">BETA</span>
         </Link>
