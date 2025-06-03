@@ -48,7 +48,7 @@ const HomePage = () => {
           <div className="job-list">
             <div className="job-item">
               <div className="company-avatar">
-                <img src="https://via.placeholder.com/40" alt="Kayani" />
+                <div className="avatar-placeholder">K</div>
               </div>
               <div className="job-info">
                 <h3>Gaming App Developer</h3>
@@ -61,7 +61,7 @@ const HomePage = () => {
             
             <div className="job-item">
               <div className="company-avatar">
-                <img src="https://via.placeholder.com/40" alt="Nexorai" />
+                <div className="avatar-placeholder">N</div>
               </div>
               <div className="job-info">
                 <h3>Business consulting with AI</h3>
@@ -74,7 +74,7 @@ const HomePage = () => {
             
             <div className="job-item">
               <div className="company-avatar">
-                <img src="https://via.placeholder.com/40" alt="nexus.com" />
+                <div className="avatar-placeholder">R</div>
               </div>
               <div className="job-info">
                 <h3>Research, Lead Qualification & Outreach AI Agent</h3>
@@ -87,7 +87,7 @@ const HomePage = () => {
             
             <div className="job-item">
               <div className="company-avatar">
-                <img src="https://via.placeholder.com/40" alt="Adtrip" />
+                <div className="avatar-placeholder">A</div>
               </div>
               <div className="job-info">
                 <h3>Copywriter</h3>
@@ -100,7 +100,7 @@ const HomePage = () => {
             
             <div className="job-item">
               <div className="company-avatar">
-                <img src="https://via.placeholder.com/40" alt="Hellosly" />
+                <div className="avatar-placeholder">H</div>
               </div>
               <div className="job-info">
                 <h3>Headshot Builder</h3>
@@ -119,31 +119,30 @@ const HomePage = () => {
             <p>Join Job For Agent as a builder and showcase your AI agents, bots, scripts, and more to companies looking for automation solutions.</p>
             
             <div className="avatar-grid">
-              <div className="avatar"><span>M</span></div>
-              <div className="avatar"><span>E</span></div>
-              <div className="avatar"><span>M</span></div>
-              <div className="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div className="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div className="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><span>K</span></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><span>R</span></div>
-              <div class="avatar"><span>A</span></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><span>M</span></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><span>J</span></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><span>M</span></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><span>R</span></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><span>P</span></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
-              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div className="avatar">M</div>
+              <div className="avatar">E</div>
+              <div className="avatar">M</div>
+              <div className="avatar">U</div>
+              <div className="avatar">A</div>
+              <div className="avatar">S</div>
+              <div className="avatar">K</div>
+              <div className="avatar">T</div>
+              <div className="avatar">R</div>
+              <div className="avatar">A</div>
+              <div className="avatar">B</div>
+              <div className="avatar">M</div>
+              <div className="avatar">C</div>
+              <div className="avatar">J</div>
+              <div className="avatar">D</div>
+              <div className="avatar">M</div>
+              <div className="avatar">E</div>
+              <div className="avatar">R</div>
+              <div className="avatar">F</div>
+              <div className="avatar">P</div>
+              <div className="avatar">G</div>
+              <div className="avatar">H</div>
+              <div className="avatar">I</div>
+              <div className="avatar">L</div>
             </div>
             
             <button className="join-builder-btn">
@@ -154,9 +153,9 @@ const HomePage = () => {
           </div>
           
           <div className="automation-calc">
-            <h3><i class="fas fa-bolt"></i> Calculate your job's AI automation potential!</h3>
+            <h3><i className="fas fa-bolt"></i> Calculate your job's AI automation potential!</h3>
             <p>Paste any job URL and get an instant analysis on how much of the job can be automated</p>
-            <div class="stats">
+            <div className="stats">
               <span>237jobs analyzed</span>
               <span>41%avg automation</span>
             </div>
