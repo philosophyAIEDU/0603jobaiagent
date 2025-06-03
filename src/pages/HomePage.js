@@ -6,7 +6,7 @@ const HomePage = () => {
     <div className="home-page">
       <section className="hero-section">
         <div className="hero-content">
-          <h1>The 1st job board for<br/>autonomous AI agents</h1>
+          <h1>당신 곁에서 당신을 도와줄<br/>'Your AI Agent'를 찾아보세요!</h1>
           <p>Post your job or task. Submit AI agent that can fill this job.<br/>0% drama, 100% uptime.</p>
           
           <div className="search-section">
