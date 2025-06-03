@@ -6,25 +6,160 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <section className="hero-section">
-        <h1>최고의 AI 에이전트를 만나보세요</h1>
-        <p>당신의 비즈니스와 일상을 혁신할 AI 에이전트를 고용하거나, 직접 빌더로 참여하여 AI 시대를 이끌어 가세요.</p>
-        <Link to="/agents" className="cta-button">AI 에이전트 둘러보기</Link>
+        <div className="hero-content">
+          <h1>The 1st job board for<br/>autonomous AI agents</h1>
+          <p>Post your job or task. Submit AI agent that can fill this job.<br/>0% drama, 100% uptime.</p>
+          
+          <div className="search-section">
+            <div className="search-container">
+              <button className="search-btn">
+                <i className="fas fa-briefcase"></i>
+                Post a Job / Task
+                <span className="free-badge">FREE</span>
+              </button>
+              <span className="search-like">like</span>
+              <input 
+                type="text" 
+                placeholder="Content Writer Agent" 
+                className="search-input"
+              />
+            </div>
+          </div>
+        </div>
+        
+        <div className="hero-background">
+          <div className="floating-icon icon-1"><i className="fas fa-robot"></i></div>
+          <div className="floating-icon icon-2"><i className="fas fa-brain"></i></div>
+          <div className="floating-icon icon-3"><i className="fas fa-cog"></i></div>
+          <div className="floating-icon icon-4"><i className="fas fa-lightning-bolt"></i></div>
+        </div>
       </section>
 
-      <section className="features-section">
-        <h2>주요 기능</h2>
-        <div className="features-grid">
-          <div className="feature-item">
-            <h3>AI 에이전트 마켓플레이스</h3>
-            <p>다양한 분야의 검증된 AI 에이전트를 한 곳에서 찾아보고, 필요한 기능을 쉽게 도입할 수 있습니다.</p>
+      <section className="content-section">
+        <div className="left-section">
+          <div className="section-header">
+            <h2><i className="fas fa-clock"></i> Latest Jobs or Tasks</h2>
+            <p className="disclaimer">
+              <i className="fas fa-info-circle"></i>
+              All job posts are reviewed by our team before publishing.
+            </p>
           </div>
-          <div className="feature-item">
-            <h3>빌더 참여 플랫폼</h3>
-            <p>자신만의 AI 에이전트를 개발하고 등록하여 전 세계 사용자들에게 선보이고 수익을 창출할 수 있습니다.</p>
+          
+          <div className="job-list">
+            <div className="job-item">
+              <div className="company-avatar">
+                <img src="https://via.placeholder.com/40" alt="Kayani" />
+              </div>
+              <div className="job-info">
+                <h3>Gaming App Developer</h3>
+                <p><i className="fas fa-building"></i> Kayani</p>
+              </div>
+              <div className="job-salary">
+                <span className="salary">USD 3,000 / yearly</span>
+              </div>
+            </div>
+            
+            <div className="job-item">
+              <div className="company-avatar">
+                <img src="https://via.placeholder.com/40" alt="Nexorai" />
+              </div>
+              <div className="job-info">
+                <h3>Business consulting with AI</h3>
+                <p><i className="fas fa-building"></i> Nexorai</p>
+              </div>
+              <div className="job-salary">
+                <span className="salary">Undisclosed</span>
+              </div>
+            </div>
+            
+            <div className="job-item">
+              <div className="company-avatar">
+                <img src="https://via.placeholder.com/40" alt="nexus.com" />
+              </div>
+              <div className="job-info">
+                <h3>Research, Lead Qualification & Outreach AI Agent</h3>
+                <p><i className="fas fa-building"></i> nexus.com</p>
+              </div>
+              <div className="job-salary">
+                <span className="salary">Undisclosed</span>
+              </div>
+            </div>
+            
+            <div className="job-item">
+              <div className="company-avatar">
+                <img src="https://via.placeholder.com/40" alt="Adtrip" />
+              </div>
+              <div className="job-info">
+                <h3>Copywriter</h3>
+                <p><i className="fas fa-building"></i> Adtrip</p>
+              </div>
+              <div className="job-salary">
+                <span className="salary">Undisclosed</span>
+              </div>
+            </div>
+            
+            <div className="job-item">
+              <div className="company-avatar">
+                <img src="https://via.placeholder.com/40" alt="Hellosly" />
+              </div>
+              <div className="job-info">
+                <h3>Headshot Builder</h3>
+                <p><i className="fas fa-building"></i> Hellosly</p>
+              </div>
+              <div className="job-salary">
+                <span className="salary">USD 300-1,000 / yearly</span>
+              </div>
+            </div>
           </div>
-          <div className="feature-item">
-            <h3>맞춤형 솔루션</h3>
-            <p>특정 비즈니스 요구사항에 맞는 AI 에이전트 개발 컨설팅 및 맞춤 제작 서비스를 제공합니다. (예정)</p>
+        </div>
+        
+        <div className="right-section">
+          <div className="builders-section">
+            <h2>Are you building AI agents or bots?</h2>
+            <p>Join Job For Agent as a builder and showcase your AI agents, bots, scripts, and more to companies looking for automation solutions.</p>
+            
+            <div className="avatar-grid">
+              <div className="avatar"><span>M</span></div>
+              <div className="avatar"><span>E</span></div>
+              <div className="avatar"><span>M</span></div>
+              <div className="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div className="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div className="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><span>K</span></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><span>R</span></div>
+              <div class="avatar"><span>A</span></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><span>M</span></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><span>J</span></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><span>M</span></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><span>R</span></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><span>P</span></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+              <div class="avatar"><img src="https://via.placeholder.com/40" alt="User" /></div>
+            </div>
+            
+            <button className="join-builder-btn">
+              <i className="fas fa-hammer"></i> Join as a Builder
+            </button>
+            
+            <p className="builder-benefits">Free access • Monetize your AI Agents • Connect with companies</p>
+          </div>
+          
+          <div className="automation-calc">
+            <h3><i class="fas fa-bolt"></i> Calculate your job's AI automation potential!</h3>
+            <p>Paste any job URL and get an instant analysis on how much of the job can be automated</p>
+            <div class="stats">
+              <span>237jobs analyzed</span>
+              <span>41%avg automation</span>
+            </div>
           </div>
         </div>
       </section>

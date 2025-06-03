@@ -1,18 +1,61 @@
 .app-header {
-  background-color: #34495e;
-  padding: 15px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 15px 30px;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
 }
 
-.app-header .logo a {
-  color: white;
-  font-size: 1.5em;
-  font-weight: bold;
+.app-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  color: white;
+}
+
+.logo-text {
+  font-size: 1.8em;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  margin-right: 10px;
+}
+
+.beta-badge {
+  background: #4ade80;
+  color: white;
+  font-size: 0.6em;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.app-header nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .app-header nav ul {
@@ -20,18 +63,78 @@
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.app-header nav ul li {
-  margin-left: 20px;
+  align-items: center;
+  gap: 25px;
 }
 
 .app-header nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.95em;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .app-header nav ul li a:hover {
-  text-decoration: underline;
+  background: rgba(255,255,255,0.2);
+  transform: translateY(-1px);
+}
+
+.post-job-btn {
+  background: #ff6b6b !important;
+  color: white !important;
+  font-weight: 600 !important;
+  padding: 10px 20px !important;
+  border-radius: 25px !important;
+  box-shadow: 0 4px 15px rgba(255,107,107,0.3) !important;
+}
+
+.post-job-btn:hover {
+  background: #ff5252 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(255,107,107,0.4) !important;
+}
+
+.sign-in-btn {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background: rgba(255,255,255,0.3);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .app-header nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .app-header nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 } 
